@@ -5,7 +5,7 @@ A simple website to detect if the OptiFine website is down
 <p>
     <A href="https://en.wikipedia.org/wiki/HTML5"><img height="28" width="28" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/html5.svg" /></a>
     <A href="https://en.wikipedia.org/wiki/CSS"><img height="28" width="28" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/css3.svg" /></a>
-    <A href="https://tailwindcss.com/"><img height="28" width="28" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" /></a>
+    <A href="https://en.wikipedia.org/wiki/Shell_script"><img height="28" width="28" src="https://commons.wikimedia.org/wiki/File:GNOME_Terminal_icon_2019.svg" /></a>
 </p>
 
 ### Status
@@ -17,6 +17,6 @@ A simple website to detect if the OptiFine website is down
 </p>
 
 ### Notes
-- designed with [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss).<br>
+- uses health-checks to verify state
 
 If there are any issues with the website, please report them by [contacting me](mailto:camekommd@gmail.com).

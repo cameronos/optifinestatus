@@ -1,5 +1,5 @@
 # optifinestatus
-A simple website to detect if the OptiFine website is down
+A simple website to detect if the OptiFine website is down. <A href="https://cameronos.github.io/optifinestatus">Visit it by clicking me!</a>
 
 ### Languages and styles used
 <p>

@@ -1,6 +1,7 @@
+#print the result of status checks without committing, avoiding generating several commits that would make forks messy
 commit=true
 origin=$(git remote get-url origin)
-if [[ $origin == *statsig-io/statuspage* ]]
+if [[ $origin == *cameronos/optifinestatus* ]]
 then
   commit=false
 fi
@@ -54,5 +55,10 @@ done
 
 if [[ $commit == true ]]
 then
-  git config --global user.name 'empty'
+  # Usinga Morrissey alias for username and other email, don't know if I need to contribute an actual account here
+  git config --global user.name 'Terrace Stomp'
+  git config --global user.email 'csgocam123@gmail.com'
+  git add -A --force logs/
+  git commit -am '[Automated] Update health check logs'
+  git push
 fi

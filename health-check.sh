@@ -1,4 +1,6 @@
-#print the result of status checks without committing, avoiding generating several commits that would make forks messy
+# In the original repository we'll just print the result of status checks,
+# without committing. This avoids generating several commits that would make
+# later upstream merges messy for anyone who forked us.
 commit=true
 origin=$(git remote get-url origin)
 if [[ $origin == *cameronos/optifinestatus* ]]
@@ -30,7 +32,7 @@ do
   url="${URLSARRAY[index]}"
   echo "  $key=$url"
 
-  for i in 1 2 3 4;
+  for i in 1 2 3 4; 
   do
     response=$(curl --write-out '%{http_code}' --silent --output /dev/null $url)
     if [ "$response" -eq 200 ] || [ "$response" -eq 202 ] || [ "$response" -eq 301 ] || [ "$response" -eq 302 ] || [ "$response" -eq 307 ]; then
@@ -47,6 +49,7 @@ do
   if [[ $commit == true ]]
   then
     echo $dateTime, $result >> "logs/${key}_report.log"
+    # Keep last 2000 entries.
     echo "$(tail -2000 logs/${key}_report.log)" > "logs/${key}_report.log"
   else
     echo "    $dateTime, $result"
@@ -55,10 +58,9 @@ done
 
 if [[ $commit == true ]]
 then
-  # Usinga Morrissey alias for username and other email, don't know if I need to contribute an actual account here
   git config --global user.name 'Terrace Stomp'
   git config --global user.email 'csgocam123@gmail.com'
   git add -A --force logs/
-  git commit -am '[Automated] Update health check logs'
+  git commit -am '[Automated] Update Health Check Logs'
   git push
 fi

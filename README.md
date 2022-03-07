@@ -6,6 +6,7 @@ A simple website to detect if the OptiFine website is down. <A href="https://cam
     <A href="https://en.wikipedia.org/wiki/HTML5"><img height="28" width="28" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/html5.svg" /></a>
     <A href="https://en.wikipedia.org/wiki/CSS"><img height="28" width="28" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/css3.svg" /></a>
     <A href="https://en.wikipedia.org/wiki/Shell_script"><img height="28" width="28" src="https://upload.wikimedia.org/wikipedia/commons/d/da/GNOME_Terminal_icon_2019.svg" /></a>
+    <A href="https://en.wikipedia.org/wiki/JavaScript"><img height="28" width="28" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/javascript.svg" /></a>
 </p>
 
 ### Status

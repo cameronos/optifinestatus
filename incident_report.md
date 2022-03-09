@@ -3,13 +3,15 @@
 <div>
 <h3 style="margin-bottom:5px">Partial main website outage</h3>
 Reported (10:22 pm EST) - Users reported outages and Error 520s from the website.
+
+Resolved (11:10 pm EST) - Website became accessible again.
 </div>
 
 ---
 
 #### Mar 6, 2022
 <div>
-<h3 style="margin-bottom:5px">Main website availability</h3>
+<h3 style="margin-bottom:5px">Major main website outage</h3>
 Resolved (12:58 pm EST) - This incident has been resolved. For 18 hours, the website had a loss of availability.
 </div>
 
@@ -17,6 +19,6 @@ Resolved (12:58 pm EST) - This incident has been resolved. For 18 hours, the web
 
 #### Mar 5, 2022
 <div>
-<h3 style="margin-bottom:5px">Main website availability</h3>
+<h3 style="margin-bottom:5px">Major main website outage</h3>
 Reported (6:58 pm EST) - Many users have reported a lack of accessibility to the website.
 </div>

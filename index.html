@@ -80,21 +80,19 @@
 	  <!---This is awfully dreadful coding for a darkmode theme, please ignore--->
 	    <a href="#"><img src="moon.png" id="icon" onclick="toggleMode(this)" width="30px"></a>
 	  <script type="text/javascript">
-	    var icon = document.getElementById("icon");
-		var setTheme = localStorage.getItem('theme')
-		console.log('theme:', setTheme)
-		console.log('ifclicked:', setClicked)
-
 		function swapStyle(sheet){
 			document.getElementById('mystylesheet').href = sheet
 			localStorage.setItem('theme', sheet)
 		}
 		
+		var icon = document.getElementById("icon");
+		var setTheme = localStorage.getItem('theme')
+		console.log('theme:', setTheme)
+		console.log('ifclicked:', setClicked)
+		
 		function toggleMode (img) {
-	
-		img.className = 'darkornot'
-	
-    if ( img.className === 'darkornot' & setTheme === 'index.css' ) {
+		
+    if ( setTheme === 'index.css' ) {
         
 		swapStyle('darkmode.css')
 		document.getElementById("icon").src="sun.png";
@@ -102,17 +100,10 @@
 		console.log('_kUc0H1SG7Y')
 			
     } else {
-		img.className = '';
 		swapStyle('index.css')
 		document.getElementById("icon").src="sun.png";
 }		
     }
-
-		if (setTheme == 'index.css'){
-			document.getElementById("icon").src="moon.png";
-		}else{
-			document.getElementById("icon").src="sun.png";
-		}	
 	</script>
     </div>
     <footer>

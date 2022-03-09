@@ -35,7 +35,9 @@
     <div class="pageContainer" style="margin-bottom:20px">
       <div class="headline">
         <img src="logo.png" alt="OptiFine logo" width="50px" />
-        <span> System Status </span>
+        <span> System Status </span><br>
+	<button onclick="swapStyle('light.css')">Lightmode</button>
+	<button onclick="swapStyle('dark.css')">Darkmode</button>
       </div>
       <div id="reports" class="reportContainer"></div>
       <div id="tooltip" class="tooltip" style="opacity: 0">
@@ -78,8 +80,6 @@
         </div>
       </div>
 	  <!---This is awfully dreadful coding for a darkmode theme, please ignore--->
-	    <button onclick="swapStyle('light.css')">Lightmode</button>
-		<button onclick="swapStyle('dark.css')">Darkmode</button>
 	<script type="text/javascript">
 
 		var setTheme = localStorage.getItem('theme')

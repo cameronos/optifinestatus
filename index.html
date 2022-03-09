@@ -80,8 +80,6 @@
 	  <!---This is awfully dreadful coding for a darkmode theme, please ignore--->
 	    <a href="#"><img src="moon.png" id="icon" onclick="toggleMode(this)" width="30px"></a>
 	  <script type="text/javascript">
-	    swapStyle('index.css')
-		setTheme = 'index.css'
 	    var icon = document.getElementById("icon");
 		var setTheme = localStorage.getItem('theme')
 		console.log('theme:', setTheme)
@@ -94,27 +92,27 @@
 		
 		function toggleMode (img) {
 	
-    if ( img.className === 'visible' ) {
+		img.className = 'darkornot'
+	
+    if ( img.className === 'darkornot' & setTheme === 'index.css' ) {
         
-		swapStyle('index.css')
-		document.getElementById("icon").src="moon.png";
+		swapStyle('darkmode.css')
+		document.getElementById("icon").src="sun.png";
 		img.className = '';
 		console.log('_kUc0H1SG7Y')
 			
     } else {
-        
-		swapStyle('darkmode.css')
-        img.className = 'visible';
+		img.className = '';
+		swapStyle('index.css')
 		document.getElementById("icon").src="sun.png";
-}
+}		
+    }
 
 		if (setTheme == 'index.css'){
 			document.getElementById("icon").src="moon.png";
 		}else{
 			document.getElementById("icon").src="sun.png";
-		}
-		
-    }	
+		}	
 	</script>
     </div>
     <footer>

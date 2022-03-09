@@ -81,9 +81,7 @@
 	    <a href="#"><img src="moon.png" id="icon" onclick="toggleMode(this)" width="30px"></a>
 	  <script type="text/javascript">
 	  var icon = document.getElementById("icon");
-	  
 		var setTheme = localStorage.getItem('theme')
-		var setClicked = localStorage.getItem('ifclicked')
 		console.log('theme:', setTheme)
 		console.log('ifclicked:', setClicked)
 
@@ -109,8 +107,7 @@
 		document.getElementById("icon").src="sun.png";
 }
 
-		if (setTheme == null){
-			swapStyle('index.css')
+		if (setTheme == 'index.css'){
 			document.getElementById("icon").src="moon.png";
 		}else{
 			document.getElementById("icon").src="sun.png";

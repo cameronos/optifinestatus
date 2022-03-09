@@ -78,31 +78,25 @@
         </div>
       </div>
 	  <!---This is awfully dreadful coding for a darkmode theme, please ignore--->
-	    <a href="#"><img src="moon.png" id="icon" onclick="toggleMode()" width="30px"></a>
-	  <script type="text/javascript">
+	    <input id="buttontochange" type="button" style="background-image:moon.png" onclick="swapStyle('dark.css')">
+	<script type="text/javascript">
+
+		var setTheme = localStorage.getItem('theme')
+		console.log('theme:', setTheme)
+
+		if (setTheme == null){
+			swapStyle('index.css')
+			document.getElementById('buttontochange').style.backgroundImage="url(moon.png)";
+		}else{
+			swapStyle(setTheme)
+			document.getElementById('buttontochange').style.backgroundImage="url(sun.png)";
+		}
+
 		function swapStyle(sheet){
 			document.getElementById('mystylesheet').href = sheet
 			localStorage.setItem('theme', sheet)
 		}
 		
-		var icon = document.getElementById("icon");
-		var setTheme = localStorage.getItem('theme')
-		console.log('theme:', setTheme)
-		
-		function toggleMode () {
-		
-    if ( setTheme === 'index.css' ) {
-        
-		swapStyle('darkmode.css')
-		document.getElementById("icon").src="sun.png";
-		console.log('Switched to darkmode')
-			
-    } else {
-		swapStyle('index.css')
-		document.getElementById("icon").src="sun.png";
-		console.log('Switched to lightmode')
-	}		
-    }
 	</script>
     </div>
     <footer>

@@ -83,7 +83,7 @@ h6 {
   margin-bottom: 4px;
 }
 a {
-  color: #194b7d;
+  color: #3f7ab5;
   text-decoration: none;
 }
 
@@ -204,7 +204,7 @@ footer a {
 .statusUptime {
   flex: 1;
   text-align: right;
-  color: #7c7c7c;
+  color: #b7b7b7;
   font-size: 12px;
 }
 
@@ -233,7 +233,7 @@ footer a {
 }
 
 .nodata {
-  background-color: #070707;
+  background-color: #5c5c5c;
   color: #ccc;
 }
 

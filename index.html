@@ -78,7 +78,7 @@
         </div>
       </div>
 	  <!---This is awfully dreadful coding for a darkmode theme, please ignore--->
-	    <a href="#"><img src="moon.png" id="icon" onclick="toggleMode(this)" width="30px"></a>
+	    <a href="#"><img src="moon.png" id="icon" onclick="toggleMode()" width="30px"></a>
 	  <script type="text/javascript">
 		function swapStyle(sheet){
 			document.getElementById('mystylesheet').href = sheet
@@ -88,22 +88,20 @@
 		var icon = document.getElementById("icon");
 		var setTheme = localStorage.getItem('theme')
 		console.log('theme:', setTheme)
-		console.log('ifclicked:', setClicked)
 		
-		function toggleMode (img) {
+		function toggleMode () {
 		
     if ( setTheme === 'index.css' ) {
         
 		swapStyle('darkmode.css')
-		setTheme = 'darkmode.css';
 		document.getElementById("icon").src="sun.png";
-		img.className = '';
-		console.log('_kUc0H1SG7Y')
+		console.log('Switched to darkmode')
 			
     } else {
 		swapStyle('index.css')
 		document.getElementById("icon").src="sun.png";
-}		
+		console.log('Switched to lightmode')
+	}		
     }
 	</script>
     </div>

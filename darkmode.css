@@ -8,8 +8,8 @@ html {
   flex-direction: column;
 }
 body {
-  background-color: #f5f6f8;
-  color: #3b3b3b;
+  background-color: #0a0907;
+  color: #c4c4c4;
   font-size: 14px;
   font-weight: 300;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -44,39 +44,39 @@ textarea,
 }
 
 h1 {
-  color: #3b3b3b;
+  color: #c4c4c4;
   font-size: 32px;
   font-weight: bold;
   margin: 0px;
 }
 h2 {
-  color: #3b3b3b;
+  color: #c4c4c4;
   font-size: 28px;
   font-weight: bold;
   margin: 16px 0 8px 0;
 }
 h3 {
-  color: #3b3b3b;
+  color: #c4c4c4;
   font-size: 24px;
   font-weight: 700;
   margin: 8px 0 4px 0;
 }
 h4 {
-  color: #3b3b3b;
+  color: #c4c4c4;
   font-size: 18px;
   font-weight: 600;
   margin-top: 5px;
   margin-bottom: 4px;
 }
 h5 {
-  color: #3b3b3b;
+  color: #c4c4c4;
   font-size: 16px;
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 4px;
 }
 h6 {
-  color: #3b3b3b;
+  color: #c4c4c4;
   font-size: 16px;
   font-weight: bold;
   margin-top: 5px;
@@ -102,7 +102,7 @@ button {
 }
 
 footer {
-  color: #9c9c9c;
+  color: #a3a3a3;
   margin: 40px;
 }
 
@@ -112,7 +112,7 @@ footer a {
 
 .pageContainer {
   padding: 30px 50px;
-  background-color: #fff;
+  background-color: #101010;
   box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   max-width: 900px;
@@ -126,7 +126,7 @@ footer a {
 }
 
 .headline span {
-  background-color: #f5f6f8;
+  background-color: #0a0907;
   border-radius: 5px;
   padding: 6px;
   margin-left: 12px;
@@ -142,7 +142,7 @@ footer a {
 }
 
 .statusContainer {
-  border: 1px solid #ededed;
+  border: 1px solid #303030;
   border-radius: 5px;
   padding-top: 20px;
   text-align: left;
@@ -150,7 +150,7 @@ footer a {
 }
 
 .statusContainer + .statusContainer {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #111111;
   margin-top: 30px;
 }
 
@@ -233,7 +233,7 @@ footer a {
 }
 
 .nodata {
-  background-color: #f8f8f8;
+  background-color: #070707;
   color: #ccc;
 }
 
@@ -243,10 +243,10 @@ footer a {
 }
 
 .tooltip {
-  background-color: #fff;
+  background-color: #101010;
   box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  color: #3b3b3b;
+  color: #c4c4c4;
   font-size: 12px;
   line-height: 18px;
   padding: 16px;
@@ -270,7 +270,7 @@ footer a {
 
 .tooltip .tooltipDateTime {
   font-size: 12px;
-  color: #7c7c7c;
+  color: #838383;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -283,7 +283,7 @@ footer a {
 .tooltip .tooltipDescription {
   margin-top: 12px;
   font-size: 14px;
-  color: #181818;
+  color: #e7e7e7;
 }
 
 .tooltip #tooltipStatus {
@@ -302,7 +302,7 @@ footer a {
 }
 
 .incidentsContainer {
-  background-color: #fafafa;
+  background-color: #050505;
 }
 
 .incidentReportsHeader {

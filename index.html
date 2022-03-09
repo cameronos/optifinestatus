@@ -26,13 +26,13 @@
 <!--ENDMETA-->
     <title>OptiFine Status</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="index.css" />
+    <link id="mystylesheet" rel="stylesheet" href="index.css" /> <!--LIGHTMODE-->
     <script src="index.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script async src="https://cdn.jsdelivr.net/npm/dompurify@2.3.5/dist/purify.min.js"></script>
   </head>
   <body>
-    <div class="pageContainer">
+    <div class="pageContainer" style="margin-bottom:20px">
       <div class="headline">
         <img src="logo.png" alt="OptiFine logo" width="50px" />
         <span> System Status </span>
@@ -77,6 +77,49 @@
           </div>
         </div>
       </div>
+	  <!---This is awfully dreadful coding for a darkmode theme, please ignore--->
+	    <a href="#"><img src="moon.png" id="icon" onclick="toggleMode(this)" width="30px"></a>
+	  <script type="text/javascript">
+		var setTheme = localStorage.getItem('theme')
+		var setClicked = localStorage.getItem('ifclicked')
+		console.log('theme:', setTheme)
+		console.log('ifclicked:', setClicked)
+
+		if (setTheme == null){
+			swapStyle('index.css')
+			setClicked('false')
+		}else{
+			swapStyle(setTheme)
+			setClicked('true')
+		}
+
+		function swapStyle(sheet){
+			document.getElementById('mystylesheet').href = sheet
+			localStorage.setItem('theme', sheet)
+			localStorage.setItem('ifclicked', 'false')
+		}
+		
+		function toggleMode (img) {
+    
+    if ( img.className === 'visible' ) {
+        
+		swapStyle('index.css')
+		alert=
+		document.getElementById("icon").src="moon.png";
+		img.className = '';
+		console.log('_kUc0H1SG7Y')
+			
+    } else {
+        
+		swapStyle('darkmode.css')
+        img.className = 'visible';
+		document.getElementById("icon").src="sun.png";
+}
+    }
+		var icon = document.getElementById("icon");
+	
+		
+	</script>
     </div>
     <footer>
       Not affiliated with OptiFine or its team.<br>

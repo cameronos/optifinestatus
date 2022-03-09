@@ -1,4 +1,12 @@
 <!--Use three dashes to make a bar, use h3s and margin-bots --->
+#### Mar 8, 2022
+<div>
+<h3 style="margin-bottom:5px">Partial main website outage</h3>
+Reported (10:22 pm EST) - Users reported outages and Error 520s from the website.
+</div>
+
+---
+
 #### Mar 6, 2022
 <div>
 <h3 style="margin-bottom:5px">Main website availability</h3>

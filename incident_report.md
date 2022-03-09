@@ -2,8 +2,7 @@
 #### Mar 8, 2022
 <div>
 <h3 style="margin-bottom:5px">Partial main website outage</h3>
-Reported (10:22 pm EST) - Users reported outages from the website.
-Resolved (11:10 pm EST) - This incident has been resolved.
+Reported (10:22 pm EST) - Users reported outages from the website.<br>Resolved (11:10 pm EST) - This incident has been resolved.
 </div>
 
 ---

@@ -1,4 +1,12 @@
 <!--Use three dashes to make a bar, use h3s and margin-bots --->
+#### Mar 17, 2022
+<div>
+<h3 style="margin-bottom:5px">Major main website outage</h3>
+Reported (10:22 pm EST) - Users reported outages from the website. <a href="img/382022.png">Discord Moderators created announcement regarding the downtime</a>.<br>Resolved* (2:52 am EST) - This incident has been partially resolved, some users may find difficulty in accessing the website. Service should improve overtime.
+</div>
+
+---
+
 #### Mar 8, 2022
 <div>
 <h3 style="margin-bottom:5px">Partial main website outage</h3>

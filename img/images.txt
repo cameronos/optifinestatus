@@ -1,0 +1,5 @@
+#3-18-21
+- Privacy note about screenshots
+  --All images located in this directory are taken directly from messages located in the OptiFine Discord server. (https://discord.gg/3mMpcwW)
+  --All images are unaltered, taken at the time of the incident, and are of the period. (i.e profile pictures and names may change)
+  --All person(s) in the images are assumed to be in a public-area (as the Discord server is widely accessible), concluding that a screenshot of their user in the image is public-domain.

@@ -1,5 +1,5 @@
 # optifinestatus
-A simple website to detect if the OptiFine website (and other services related to it) is down. <A href="https://cameronos.github.io/optifinestatus">Visit it by clicking me!</a>
+A simple website to detect if the OptiFine website (and other services related to it) is down. Inactive since 21 April 2022. <A href="https://cameronos.github.io/optifinestatus">Visit it by clicking me!</a>
 
 ### Languages and styles used
 <p>
